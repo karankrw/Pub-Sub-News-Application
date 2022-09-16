@@ -1,4 +1,8 @@
 # Newsfeed Application
+• Designed and developed a distributed news application based on the publisher-subscriber model powered by ReactJS
+frontend, Python middleware, Java-Spring Boot backend and Redis cache data store.
+• Aggregated news articles from different open-source APIs and stored them in cache queues of subscribed users which
+enables the broker to send news and highlights to the users based on their preferences.
 
 ## Application Startup Steps:
 
