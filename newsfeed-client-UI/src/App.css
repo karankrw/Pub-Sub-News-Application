@@ -1,0 +1,43 @@
+html,
+body,
+#root {
+  height: 100vh;
+}
+
+.Home {
+  height: 100vh;
+  display: flex;
+  background-color: #112B3C;
+}
+
+.brand-name {
+  justify-content: center;
+}
+
+nav {
+  background-color: #112B3C;
+}
+
+.nav-content {
+  width: 100%;
+}
+
+.tabs a {
+  display: flex;
+  padding: 5px;
+  background-color: #A5BECC;
+  padding-right: 0%;
+  font-size: 1rem;
+  text-align: center;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.news-icon {
+  font-size: 45px;
+
+}
+
+.cards {
+  background-color: #E8F9FD;
+}
