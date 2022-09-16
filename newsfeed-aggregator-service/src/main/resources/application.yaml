@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+brokerServiceUrl: http://localhost:8080
+brokerServicePath: /publish/articles
+
+nyTimes:
+  baseUrl: https://api.nytimes.com/svc/search/v2/articlesearch.json
+  queryParameters:
+    sort: newest
+    api-key: eNahL1L0blQ4vS7daeOGyEPJzA2uVdGo
