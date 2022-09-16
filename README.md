@@ -5,6 +5,7 @@ frontend, Python middleware, Java-Spring Boot backend and Redis cache data store
 • Aggregated news articles from different open-source APIs and stored them in cache queues of subscribed users which
 enables the broker to send news and highlights to the users based on their preferences.
 
+
 ## Application Startup Steps:
 
 ###Below are the steps to start the application in local machine
@@ -16,10 +17,12 @@ enables the broker to send news and highlights to the users based on their prefe
 ..3. cd target/
 ..4. java -jar aggregator-service-1.0-SNAPSHOT.jar
 
+
 2. Start Redis
 
 ⋅⋅1. Install redis from https://redis.io/download/
 ..2. start redis-server on port 6379
+
 
 3. Start Newsfeed broker service
 
@@ -28,11 +31,13 @@ enables the broker to send news and highlights to the users based on their prefe
 ..3. cd target/
 ..4. java -jar newsfeed-broker-service-1.0-SNAPSHOT.jar
 
+
 4. Start Newsfeed client service
 
 ⋅⋅1. cd newsfeed-client-service
 ..2. pip3 install redis
 ..3. python3 .\pubsubClient.py
+
 
 5. Start Newsfeed client UI
 
@@ -40,6 +45,7 @@ enables the broker to send news and highlights to the users based on their prefe
 ..2. npm install
 ..3. npm start
 ..4. Go to browser and open http://localhost:3000/
+
 
 6. Use the application
 
